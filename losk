@@ -1,0 +1,18 @@
+import Link from 'next/link'
+
+export default function Home() {
+    return (
+        <ul>
+            <li>
+                <Link href="/">
+                    Главная
+                </Link>
+            </li>
+            <li>
+                <Link href= "/about">
+                    О нас
+                </Link>
+            </li>
+        </ul>
+    )
+}
